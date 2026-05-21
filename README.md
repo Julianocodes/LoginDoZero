@@ -62,13 +62,14 @@ Esse projeto faz parte da minha jornada aprendendo programação e desenvolvimen
 
 ## 📸 Preview
 
-Adicione aqui prints do projeto futuramente 🚀
+<img width="488" height="634" alt="Captura de tela 2026-05-21 154237" src="https://github.com/user-attachments/assets/e2769eab-276a-4061-b587-3a9f7994ed25" />
+
 
 ---
 
 ## 🔗 Deploy
 
-Projeto publicado na Vercel.
+[Projeto publicado na Vercel.](https://login-do-zero.vercel.app/)
 
 ---
 
