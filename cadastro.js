@@ -63,17 +63,17 @@ document.addEventListener('DOMContentLoaded', ()=>{
 // logica para a pag de cadastro
     if (document.getElementById('cadastro-form')) {
         const cadastroForm = document.getElementById('cadastro-form')
-        cadastroForm = addEventListener('submit', (e)=>{
+        cadastroForm.addEventListener('submit', (e)=>{
             e.preventDefault();
 
             const username = document.getElementById('nome').value
-            const passowrd = document.getElementById('senha').value
+            const password = document.getElementById('senha').value
             const email = document.getElementById('email').value
-            const usuario = {username, email, passowrd};
+            const usuario = {username, email, password};
             localStorage.setItem('usuario', JSON.stringify(usuario))
 
             alert('Usuário cadastrado com sucesso!');
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         });
     }
 })

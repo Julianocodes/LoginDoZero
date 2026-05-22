@@ -1,10 +1,10 @@
 const botao = document.getElementById('botaoEnter');
-const inputEmai = document.getElementById('email');
+const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 
 
 botao.addEventListener('click', function(){
-    const email = inputEmai.value.trim();
+    const email = inputEmail.value.trim();
     const senha = inputSenha.value.trim();
 console.log(email, senha)
     if (email == "") {
@@ -39,10 +39,10 @@ console.log(email, senha)
             e.preventDefault();
 
             const email = document.getElementById('email').value
-            const passowrd = document.getElementById('senha').value
+            const password = document.getElementById('senha').value
 
             const usuarioCadastrado = JSON.parse(localStorage.getItem('usuario'));
-           if (usuarioCadastrado && usuarioCadastrado.email === email && usuarioCadastrado && usuarioCadastrado.passowrd === passowrd){
+           if (usuarioCadastrado && usuarioCadastrado.email === email && usuarioCadastrado && usuarioCadastrado.password === password){
                 localStorage.setItem('logado', email);
                 alert('Login realizado com sucesso!');
                 window.location.href = 'sucesso.html'
